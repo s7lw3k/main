@@ -9,18 +9,22 @@ class LicznikKrokow extends Component {
         }
   }
 
+  reset = (e) => {
+      console.log("d")
+  }
+
   wiecejKrokow = () => { //event 5
     const plansza = this.refs.plansza;
     this.setState({kroki:(this.state.kroki+1)});
     if(this.state.kroki > 1000){
-        plansza.innerHTML = "Udało Ci się!"
+        plansza.innerHTML = 'Udało Ci się!'
     }
   }
 
   render() {
       
     return (
-        <div>
+        <div className='kroki'>
             <div className='plansza' onScroll={this.wiecejKrokow} ref="plansza">
                 <div className='wynik' >
                     {this.state.kroki}
@@ -53,7 +57,7 @@ class LicznikKrokow extends Component {
                 <br/>
                 <br/>
             </div>
-            <p>Każdy wiedźmin powinien ćwiczć wytrzymałość! Twoim zadaniem jest scrollować góra dół aż do uzyskania 1000 punktów.</p>
+            <p className='opis_1'>Każdy wiedźmin powinien ćwiczć wytrzymałość! Twoim zadaniem jest scrollować góra dół aż do uzyskania 1000 punktów.</p>
         </div>
     );
   }

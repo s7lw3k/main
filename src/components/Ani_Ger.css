@@ -1,0 +1,82 @@
+#oko{
+    animation: 12s oko infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#g_szcenka{
+    animation: 5s g_szczenka infinite;
+    transform: translateX(-30px);
+    transform-origin: right;
+    transform-box: fill-box;
+}
+
+#d_szcenka{
+    animation: 5s d_szczenka infinite;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+
+#lotos{
+    animation: 7s lotos 3;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes oko {
+    0%{
+        transform: scaleY(1);
+    }
+    85%{
+        transform: scaleY(1);
+    }
+    95%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+@keyframes g_szczenka {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes d_szczenka {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(25deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes lotos {
+    0%{
+        transform: skew(0deg);
+    }
+    50%{
+        transform: skew(-15deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+#mask0_1_42{
+    mask-type:alpha
+}
+
+.szary{
+    transition: 1s;
+    transform: rotate(360deg);
+}

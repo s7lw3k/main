@@ -44,7 +44,7 @@ class Map extends Component {
     const items = [];
     let value = this.txtData2().data[this.state.licz].text;
     items.push(
-        <div className="info">
+        <div className="info" key={1}>
             <img className="herb" src={this.imgs['img'+(this.state.licz+1)]} alt=""/>
              <p className="opis">{value}</p>
         </div>

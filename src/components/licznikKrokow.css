@@ -1,14 +1,32 @@
+.kroki{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .plansza{
-    width: 300px;
+    width: 100%;
     height: 300px;
     border: 1px solid black;
     overflow-y: scroll;
     position: relative;
     font-size: 3rem;
     font-weight: 600;
+    background-color: white;
+    color: black;
 }
 .wynik{
     position: sticky;
     left: 40%;
     top: 40%;
+}
+.opis_1{
+    max-width: 100%;
+    padding: 2rem;
+    color: white;
+    background-color: #333;
+    font-size: 1.5rem;
+}
+@media (max-width:700px){
+    .kroki{
+        grid-template-columns: 1fr;
+    }
 }
