@@ -40,6 +40,20 @@ class LicznikKrokow extends Component {
             {this.state.kroki}<br/>
             {this.state.kroki}<br/>
             {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
+            {this.state.kroki}<br/>
             </div>
             <p>Każdy wiedźmin powinien ćwiczć wytrzymałość! Twoim zadaniem jest scrollować góra dół aż do uzyskania 1000 punktów.</p>
         </div>
