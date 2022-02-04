@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "img": "img1",
+            "text": "Cesarstwo Nilfgaardu – największy twór państwowy w historii uniwersum Wiedźmina ze stolicą w Nilfgaardzie, leżący na południu Kontynentu, posiadający zarówno rozbudowane zaplecze gospodarcze, jak i bitną, wyszkoloną armię oraz utalentowanych dowódców i polityków."
+        },
+        {
+            "id": 2,
+            "img": "img2",
+            "text": "Temeria – Królestwo Północy leżące między rzekami Pontar i Jaruga, jedno z Czterech Królestw. Graniczy z Redanią, Kerack, Kaedwen, Aedirn, Brokilonem i Cidaris. Stolicą kraju jest Wyzima."
+        },
+        {
+            "id": 3,
+            "img": "img3",
+            "text": "Cintra utraciła niepodległość po I wojnie Nilfgaardu z Nordlingami i stała się wraz z Górnym Sodden oraz Attre prowincją nilfgaardzką o nazwie Cintra. Tymczasowym namiestnikiem prowincji został marszałek Menno Coehoorn. Emhyr zamierzał przekształcić to państwo w bogatą krainę. Większość mieszkańców uciekła za Jarugę, do Temerii i Redanii."
+        },
+        {
+            "id": 4,
+            "img": "img4",
+            "text": "Verden – jedno z królestw północy, władane przez Kistrina. Państwo to leży przy prawym brzegu Jarugi, u jej ujścia. Od wschodu graniczy z Brokilonem, od północy z Kerack, naturalną granicę na południu stanowi rzeka Jaruga oddzielająca Cintrę od Verden. Herbem królestwa jest tarcza ze złoto-czarną szachownicą."
+        },
+        {
+            "id": 5,
+            "img": "img5",
+            "text": "Skellige – państwo leżące na archipelagu wysp o tej samej nazwie na Wielkim Morzu, u wybrzeży Cintry. Wyspy te opływają w legendy, słyną z korsarzy i ich statków. Ludzie, którzy osiedli na wyspach, zamiast walczyć ze Starszymi Rasami, postanowili z nimi koegzystować."
+        },
+        {
+            "id": 6,
+            "img": "img6",
+            "text": "Brokilon – Matecznik znany jest ze swej dzikości oraz niebezpieczeństwa, jakie czyha dla ludzi, którzy nazbyt zbliżą się do boru. Driady bacznie bronią swych kniei przed wszelkimi intruzami i strzelają do nich, czasem nawet bez ostrzeżenia. Według Geralta dawniej driady ostrzegały niepowołanego gościa dwa, a nawet trzy razy, nim posłały strzałę bezpośrednio w niego, ale rozwścieczone atakami żołnierzy z Brugge, Sodden i Verden sprawiły, że driady stały się agresywne wobec ludzi. Ogólnie rzecz biorąc mieszkanki Brokilonu nie mieszają się w sprawy świata zewnętrznego. Zrobiły tylko jeden wyjątek wspierając Scoia'tael, poprzez udzielanie im schronienia w lesie oraz leczenie rannych bojowników."
+        },
+        {
+            "id": 7,
+            "img": "img7",
+            "text": "Królestwo Cidaris - Podobnie jak Toussaint, słynie z wyrobu wyśmienitych win. Flota Ethaina osłaniała od morza tereny Czterech Królestw (Aedirn, Kaedwen, Redania, Temeria). Stolica Cidaris słynie z Morskiego Bazaru, na którym można kupić wiele dziwnych, egzotycznych i rzadkich towarów zwożonych z najdalszych zakątków świata."
+        },
+        {
+            "id": 8,
+            "img": "img8",
+            "text": "Rivia – państwo będące w unii realnej z Lyrią, kraina w granicach Lyrii i Rivii. Przed nastaniem unii z Lyrią, była niezależnym królestwem. Dopiero potomkowie Impeccy i Cerana, za pośrednictwem strategicznych mariaży, połączyli oba królestwa w jeden byt państwowy."
+        },
+        {
+            "id": 9,
+            "img": "img9",
+            "text": "Aedirn – królestwo północy ze stolicą w Vengerbergu, jedno z Czterech Królestw. Leży między górami Sinymi a Mahakamskimi."
+        },
+        {
+            "id": 10,
+            "img": "img10",
+            "text": "Redania (od st. Roethain[1]) – królestwo północy leżące między rzekami Buina i Pontar, jedno z Czterech Królestw. Graniczy z Kovirem, Caingorn, Kaedwen, Aedirn i Temerią. Na terenie Redanii leży Wolne Miasto Novigrad i uniwersytet w Oxenfurcie. Stolicą Redanii jest Tretogor."
+        },
+        {
+            "id": 11,
+            "img": "img11",
+            "text": "Kaedwen (st. Caedwen – Biały Las) – królestwo północy leżące między górami Pustulskimi a Sinymi, jedno z Czterech Królestw."
+        },
+        {
+            "id": 12,
+            "img": "img12",
+            "text": "Kovir i Poviss – królestwo leżące na północy nad Zatoką Praksedy, największy światowy eksporter kopalin, czerpiący olbrzymie zyski z handlu."
+        }
+    ]
+}

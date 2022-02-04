@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background{
+    position: absolute;
+    transform: translateZ(-20px);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+    scale: 3.5;
+}
+
+.logo{
+    position: absolute;
+    transform: translateZ(-5px);
+}
+
+.title{
+    position: absolute;
+    font-size: 8rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-weight: 800;
+    font-family: 'Pattaya', sans-serif;
+}
+section{
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width:700px) {
+    .title{
+        font-size: 5rem;
+    }
+}

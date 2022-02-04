@@ -1,0 +1,231 @@
+:root{
+    --opuznienie: 250ms ease-in;
+  }
+  .mapa_all{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #333;
+  }
+  
+  .info{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .herb{
+    object-fit: cover;
+    height: 360px;
+    width: 300px;
+  }
+  .opis{
+    width: max(40vw, 400px);
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+  }
+
+  .mapa{
+    width: 700px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+  }
+
+  .mapa::before{
+    content: "Klikni na kraj a by wyświetlić informacje o nim";
+    position: absolute;
+    background-color: #ddd;
+    padding: 0.5rem;
+    z-index: -2;
+    bottom: -2rem;
+    left: 0px;
+    transition: 400ms ease-in;
+    opacity: 0;
+    border-radius: 10px;
+  }.mapa:hover:before{
+    z-index: 1;
+    opacity: 1;
+    left: 180px;
+  }
+
+  .zd{
+    width: 100%;
+    height: 100%;
+    transition: 500ms ease-in;
+  }
+  .kraj{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+  }
+  .kraj::after{
+    content: "";
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: var(--opuznienie);
+    left: 40px;
+    z-index: -1;
+  }
+  .kraj:hover:after{
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  /* Nilfgard */
+  .nilfgard{
+    top: 390px;
+    left: 100px;
+    width: 300px;
+    height: 80px;
+  }
+  .nilfgard::after{
+    content: "Cesarstwo Nilfgaardu – największy twór państwowy w historii uniwersum Wiedźmina ze stolicą w Nilfgaardzie, leżący na południu Kontynentu, posiadający zarówno rozbudowane zaplecze gospodarcze, jak i bitną, wyszkoloną armię oraz utalentowanych dowódców i polityków.";
+    left: 300px;
+  }
+  
+  /* Temeria */
+  .temeria{
+    top: 230px;
+    left: 180px;
+    width: 140px;
+    height: 130px;
+  }
+  .temeria::after{
+    content: "Temeria – Królestwo Północy leżące między rzekami Pontar i Jaruga, jedno z Czterech Królestw. Graniczy z Redanią, Kerack, Kaedwen, Aedirn, Brokilonem i Cidaris. Stolicą kraju jest Wyzima.";
+    left: 140px;
+  }
+  
+  /* Cintra */
+  .cintra{
+    top: 360px;
+    left: 130px;
+    width: 80px;
+    height: 30px;
+  }
+  .cintra::after{
+    content: "Cintra utraciła niepodległość po I wojnie Nilfgaardu z Nordlingami i stała się wraz z Górnym Sodden oraz Attre prowincją nilfgaardzką o nazwie Cintra. Tymczasowym namiestnikiem prowincji został marszałek Menno Coehoorn. Emhyr zamierzał przekształcić to państwo w bogatą krainę. Większość mieszkańców uciekła za Jarugę, do Temerii i Redanii.";
+    left: 80px;
+  }
+  /* Verden */
+  .verden{
+    top: 310px;
+    left: 120px;
+    width: 40px;
+    height: 40px;
+  }
+  .verden::after{
+    content: "Verden – jedno z królestw północy, władane przez Kistrina. Państwo to leży przy prawym brzegu Jarugi, u jej ujścia. Od wschodu graniczy z Brokilonem, od północy z Kerack, naturalną granicę na południu stanowi rzeka Jaruga oddzielająca Cintrę od Verden. Herbem królestwa jest tarcza ze złoto-czarną szachownicą.";
+    left: 40px;
+  }
+  /* Skelige */
+  .skelige{
+    top: 290px;
+    left: 50px;
+    width: 40px;
+    height: 60px;
+  }
+  .skelige::after{
+    content: "Skellige – państwo leżące na archipelagu wysp o tej samej nazwie na Wielkim Morzu, u wybrzeży Cintry. Wyspy te opływają w legendy, słyną z korsarzy i ich statków. Ludzie, którzy osiedli na wyspach, zamiast walczyć ze Starszymi Rasami, postanowili z nimi koegzystować.";
+    left: 40px;
+  }
+  /* Brokilon */
+  .brokilon{
+    top: 270px;
+    left: 145px;
+    width: 40px;
+    height: 60px;
+  }
+  .brokilon::after{
+    content: "Brokilon – Matecznik znany jest ze swej dzikości oraz niebezpieczeństwa, jakie czyha dla ludzi, którzy nazbyt zbliżą się do boru. Driady bacznie bronią swych kniei przed wszelkimi intruzami i strzelają do nich, czasem nawet bez ostrzeżenia. Według Geralta dawniej driady ostrzegały niepowołanego gościa dwa, a nawet trzy razy, nim posłały strzałę bezpośrednio w niego, ale rozwścieczone atakami żołnierzy z Brugge, Sodden i Verden sprawiły, że driady stały się agresywne wobec ludzi. Ogólnie rzecz biorąc mieszkanki Brokilonu nie mieszają się w sprawy świata zewnętrznego. Zrobiły tylko jeden wyjątek wspierając Scoia'tael, poprzez udzielanie im schronienia w lesie oraz leczenie rannych bojowników.";
+    left: 40px;
+  }
+  /* Cidari */
+  .cidari{
+    top: 250px;
+    left: 100px;
+    width: 40px;
+    height: 50px;
+  }
+  .cidari::after{
+    content: "Królestwo Cidaris - Podobnie jak Toussaint, słynie z wyrobu wyśmienitych win. Flota Ethaina osłaniała od morza tereny Czterech Królestw (Aedirn, Kaedwen, Redania, Temeria). Stolica Cidaris słynie z Morskiego Bazaru, na którym można kupić wiele dziwnych, egzotycznych i rzadkich towarów zwożonych z najdalszych zakątków świata.";
+    left: 40px;
+  }
+  /* Rivia */
+  .rivia{
+    top: 300px;
+    left: 320px;
+    width: 120px;
+    height: 50px;
+  }
+  .rivia::after{
+    content: "Rivia – państwo będące w unii realnej z Lyrią, kraina w granicach Lyrii i Rivii. Przed nastaniem unii z Lyrią, była niezależnym królestwem. Dopiero potomkowie Impeccy i Cerana, za pośrednictwem strategicznych mariaży, połączyli oba królestwa w jeden byt państwowy.";
+    left: 120px;
+  }
+  /* Aedirn */
+  .aedirn{
+    top: 210px;
+    left: 320px;
+    width: 120px;
+    height: 90px;
+  }
+  .aedirn::after{
+    content: "Aedirn – królestwo północy ze stolicą w Vengerbergu, jedno z Czterech Królestw. Leży między górami Sinymi a Mahakamskimi.";
+    left: 120px;
+  }
+  /* Redania */
+  .redania{
+    top: 110px;
+    left: 150px;
+    width: 120px;
+    height: 120px;
+  }
+  .redania::after{
+    content: "Redania (od st. Roethain[1]) – królestwo północy leżące między rzekami Buina i Pontar, jedno z Czterech Królestw. Graniczy z Kovirem, Caingorn, Kaedwen, Aedirn i Temerią. Na terenie Redanii leży Wolne Miasto Novigrad i uniwersytet w Oxenfurcie. Stolicą Redanii jest Tretogor.";
+    left: 120px;
+  }
+  /* Kaedwen */
+  .kaedwen{
+    top: 70px;
+    left: 280px;
+    width: 120px;
+    height: 140px;
+  }
+  .kaedwen::after{
+    content: "Kaedwen (st. Caedwen – Biały Las) – królestwo północy leżące między górami Pustulskimi a Sinymi, jedno z Czterech Królestw.";
+    left: 120px;
+  }
+  /* Kovir */
+  .kovir{
+    top: 50px;
+    left: 100px;
+    width: 120px;
+    height: 60px;
+  }
+  .kovir::after{
+    content: "Kovir i Poviss – królestwo leżące na północy nad Zatoką Praksedy, największy światowy eksporter kopalin, czerpiący olbrzymie zyski z handlu.";
+    left: 120px;
+  }
+  
+  .kolor{
+    filter: none;
+  }
+
+  .tak{
+    filter: grayscale(0.7);
+    border-radius: 4em 2em 8em / 1em 6em;
+  }
+
+  @media (max-width:700px){
+  .info{
+    flex-direction: column;
+  }
+
+  }
