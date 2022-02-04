@@ -3,4 +3,12 @@
     height: 300px;
     border: 1px solid black;
     overflow-y: scroll;
+    position: relative;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.wynik{
+    position: sticky;
+    left: 40%;
+    top: 40%;
 }
