@@ -22,12 +22,11 @@ header{
 
 .background{
     position: absolute;
-    transform: translateZ(-20px);
+    transform: scale(4) translateZ(-20px);
     height: 100%;
     width: 100%;
     object-fit: cover;
     z-index: -2;
-    scale: 3.5;
 }
 
 .logo{
