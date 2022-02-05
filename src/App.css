@@ -7,4 +7,34 @@
   .noPrint{
     display:none;
   }
+  img{
+    filter: grayscale(0.8);
+  }
+}
+.guzik{
+  position: fixed;
+  right: 30px;
+  top: 5rem;
+  font-size: 3rem;
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: 0.3s ease-out;
+  z-index: 5;
+}
+.none{
+  opacity: 0;
+}
+.droptarget{
+  background-color: #444;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.flex_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }

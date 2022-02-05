@@ -14,7 +14,8 @@ class KartaPostaci extends Component {
     }
 
   render() {
-    const {name, age, country, cecha, aparycja, charakter, eq, bio} = this.props; 
+    let {name, age, country, cecha, aparycja, charakter, eq, bio} = this.props; 
+    if(parseInt(age) > 300){age = 300}
     return (
         <div className="body">
             <div className="wzorkartypostaci">

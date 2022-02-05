@@ -7,6 +7,7 @@ import {
 import App from "./App";
 import Home from "./Home";
 import Kraje from "./Kraje"
+import "./index.css"
 
 const rootElement = document.getElementById("root");
 render(
