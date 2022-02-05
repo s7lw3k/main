@@ -24,7 +24,7 @@ class LicznikKrokow extends Component {
   render() {
       
     return (
-        <div className='kroki'>
+        <div className='kroki noPrint'>
             <div className='plansza' onScroll={this.wiecejKrokow} ref="plansza">
                 <div className='wynik' >
                     {this.state.kroki}

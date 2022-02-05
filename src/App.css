@@ -1,4 +1,10 @@
 .main{
   background-color: #333;
   color: white;
+  overflow-x: hidden;
+}
+@media print {
+  .noPrint{
+    display:none;
+  }
 }

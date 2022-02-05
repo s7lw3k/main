@@ -22,7 +22,7 @@ class Ani_Ger extends Component {
 
   render() {
       return (
-        <div className='Ani_Ger'>
+        <div className='Ani_Ger noPrint'>
             <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="animacja">
                 <mask id="mask0_1_42"  maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="300">

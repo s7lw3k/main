@@ -4,7 +4,7 @@ import logo from "./imgs/logo.png"
 
 function Nav() {
   return (
-      <nav className='nav'>
+      <nav className='nav noPrint'>
         <Link to="/"><img src={logo} alt="logo" className='logo_nav'/></Link> | {"\n"}
         <Link to="/main" className='link'>Main</Link>| {"\n"}
         <Link to="/kraje" className='link'>Krainy</Link>
